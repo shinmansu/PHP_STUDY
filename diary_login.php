@@ -20,7 +20,7 @@
   </head>
   <body>
     <div class="jumbotron container text-center">
-      <h2 id="keytitle">키워드 다이어리</h1>
+      <h2 id="keytitle">키워드 다이어리 WITH 예림</h1>
       <p class="cotnent"> 키워드 다이어리는 키워드 5개를 설정해서 그 키워드를 바탕으로 일기를 쓸 수 있도록 돕는 서비스입니다. </p>
       <div class="lead">
         <form class="login" action="login.php" method="get">
