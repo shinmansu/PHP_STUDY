@@ -1,0 +1,31 @@
+  #keytitle {
+            padding-bottom:10px;
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 5em;
+            line-height: 2em;
+        }
+        
+        .jumbotron {
+            padding-top:20px;
+        }
+        .jumbotron p {
+            text-align:center;
+            padding-left:70px;
+            padding-right:70px;
+            padding-bottom:30px;
+        }
+        
+        .form-control {
+            padding: 10px;
+            font-size: 16px;
+            width:30%;
+            position:relative;
+            display:inline-block;
+            }
+        .btn.btn-lg.btn-primary.btn-block{ 
+            display:inline-block; 
+            width:30%;
+            margin-top:30px;
+        }
+        

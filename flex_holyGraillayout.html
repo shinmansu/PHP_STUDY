@@ -1,0 +1,76 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        .container{
+            display:flex;
+            flex-direction: column;
+            width:800px;
+             border:1px solid gray;
+ 
+        }
+        header {
+            border-bottom: 1px solid gray;
+            padding-left:20px;
+        }
+        footer{
+            border-top:1px solid gray;
+            padding:20px;
+            text-align:center;
+        }
+        .content{
+            display:flex;
+        }
+        .content nav { 
+            border-right:1px solid gray;
+        }
+        .content asside{
+            border-left:1px solid gray;
+        }
+        nav, asside {
+            flex-basis:150px;
+            flex-shrink:0;
+        }
+        main {
+            padding:10px;
+        }
+        
+        nav { 
+            order:-1;    
+        }
+        
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <header>
+            <h1>생활코딩</h1>
+        </header>
+        <section class="content">
+            <main>
+            delectus voluptate asperiores earum laboriosam error minus quam veniam blanditiis quia nisi obcaecati ipsum harum! Ipsam distinctio ad veritatis tempora laborum rem ipsum enim, iure quo deleniti? Nam ex ducimus accusantium! Alias consequatur in deleniti laudantium magnam cumque, impedit velit totam laboriosam ea! Nemo quae veritatis praesentium aliquid ex ducimus vel at quasi dolor cum. Obcaecati, officia provident ab. Excepturi eius, ullam quia amet quisquam, consequuntur fuga repudiandae eligendi sit eos minus earum id facilis reprehenderit voluptatibus. Maiores non ipsam quia eaque odio quae voluptatum est ab enim officia, eius cumque repudiandae eligendi delectus quasi tempora aut incidunt a repellendus tempore ea accusantium quaerat inventore? Excepturi eligendi autem sapiente numquam, quis earum voluptates, sunt, nostrum, repudiandae minima consequuntur impedit amet.    
+            </main>
+            <nav>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascript</li>
+                </ul>
+            </nav>
+            <asside>
+                AD
+            </asside>
+        </section>
+        <footer>
+            푸터
+        </footer>
+    </div>
+  </body>
+</html>
